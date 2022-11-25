@@ -248,28 +248,6 @@ class _BluetoothOnScreen extends State<BluetoothOnScreen> {
                   displayThumbColor: true,
                   paletteType: PaletteType.hueWheel,
                 ),
-            // child: BlockPicker(
-            //     pickerColor: _color,
-            //     availableColors: [
-            //       Colors.green,
-            //       Colors.indigo,
-            //       Colors.brown,
-            //       Colors.cyan,
-            //       Color(0xff000000)
-            //     ],
-            //     onColorChanged: (Color color) {
-            //       if (this._colorCharacteristic == null) {
-            //         return;
-            //       }
-            //       setState(() {
-            //         _color = color;
-            //         print("${_color.red}");
-            //         print("${_color.green}");
-            //         print("${_color.blue}");
-            //       });
-            //       _writeColorCharacteristic(this._colorCharacteristic!);
-            //     }
-            // ),
             ),
             actions: <Widget>[
               ElevatedButton(
@@ -291,57 +269,6 @@ class _BluetoothOnScreen extends State<BluetoothOnScreen> {
       ),
     );
   }
-
-  // Widget _bleScanArea() {
-  //   return Container(
-  //       width: double.infinity,
-  //       height: 200,
-  //       color: Color.fromRGBO(56, 85, 114, 1),
-  //       child: StreamBuilder<List<ScanResult>>(
-  //         stream: FlutterBluePlus.instance.scanResults,
-  //         initialData: const [],
-  //         builder: (c, snapshot) {
-  //           return Column(
-  //             children: snapshot.data!
-  //                 // .where((r) => r.advertisementData.connectable)
-  //                 // .where((r) => r.device.name.isNotEmpty)
-  //                 // .where((r) => r.advertisementData.localName == "Hue color lamp")
-  //                 .map((r) =>  ListTile(
-  //               title: Text(r.device.name, style: TextStyle(fontSize: 20, color: Colors.white),),
-  //               trailing: StreamBuilder<BluetoothDeviceState>(
-  //                 stream: r.device.state,
-  //                 initialData: BluetoothDeviceState.disconnected,
-  //                 builder: (c, snapshot) {
-  //                   //_stopScan();
-  //                   if(snapshot.data == BluetoothDeviceState.connected) {
-  //                     return IconButton(
-  //                         onPressed: () async {
-  //                           await r.device.disconnect();
-  //                         },
-  //                         icon: Icon(
-  //                           Icons.bluetooth_connected,
-  //                           color: Colors.lightBlue,
-  //                           size: 45.0,
-  //                         )
-  //                     );
-  //                   }
-  //                   return IconButton(
-  //                       onPressed: () async {
-  //                         await _connect(r.device);
-  //                       },
-  //                       icon: Icon(
-  //                         Icons.bluetooth_disabled,
-  //                         color: Colors.white,
-  //                         size: 45.0,
-  //                       )
-  //                   );
-  //                 },
-  //               ),
-  //             )).toList(),
-  //           );
-  //         })
-  //   );
-  // }
 
   Widget _brightnessArea() {
     return Container(

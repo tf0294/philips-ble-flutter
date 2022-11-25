@@ -1,16 +1,24 @@
-# ainenne
 
-A new Flutter project.
+## About philips-ble-flutter
 
-## Getting Started
+FlutterでBLE接続を検証するために、philipsのスマートLEDのHueとFlutterのBLE接続を試したプロジェクトです。
 
-This project is a starting point for a Flutter application.
+### リポジトリ
 
-A few resources to get you started if this is your first Flutter project:
+https://fascent.backlog.jp/git/OOEKI/philips-ble-flutter.git
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 環境構築
+Android Studio前提の環境構築です。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+% cd ~/StudioProjects/
+% git clone fascent@fascent.git.backlog.jp:/OOEKI/philips-ble-flutter.git
+% cd philips-ble-flutter
+```
+
+### Android Studioでプロジェクトを開く
+
+Android Studioを起動して、philips-ble-flutterプロジェクトを開く
+[New Flutter Project] > [Open] > ~/StudioProjects/philips-ble-flutter
+
+pubspec.yamlを開いて左上の[Pub Get]を押す

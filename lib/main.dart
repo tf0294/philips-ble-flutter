@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ainenne/ble.dart';
+import 'package:philips-ble-flutter/ble.dart';
 
 void main() =>  runApp(const MyApp());
 
@@ -31,7 +31,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("ainenne"),
+          title: Text("Hue BLE Demo"),
           leading: _buildProfileIconButton(),
           backgroundColor: Color.fromRGBO(14, 43, 71, 1),
         ),
