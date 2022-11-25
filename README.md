@@ -21,4 +21,8 @@ Android Studio前提の環境構築です。
 Android Studioを起動して、philips-ble-flutterプロジェクトを開く
 [New Flutter Project] > [Open] > ~/StudioProjects/philips-ble-flutter
 
-pubspec.yamlを開いて左上の[Pub Get]を押す
+pubspec.yamlを開いて右上の[Pub Get]を押す
+
+
+## Android StudioやFlutterのセットアップは以下を参考
+
