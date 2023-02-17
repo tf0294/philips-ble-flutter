@@ -1,30 +1,5 @@
 
 ## About philips-ble-flutter
 
-FlutterでBLE接続を検証するために、philipsのスマートLEDのHueとFlutterのBLE接続を試したプロジェクトです。
+FlutterでBLE接続を学ぶために、philipsのスマートLEDのHueとFlutterのBLE接続を試しました。
 
-### リポジトリ
-
-https://fascent.backlog.jp/git/OOEKI/philips-ble-flutter.git
-
-## 環境構築
-Android Studio前提の環境構築です。
-
-```sh
-% cd ~/StudioProjects/
-% git clone fascent@fascent.git.backlog.jp:/OOEKI/philips-ble-flutter.git
-% cd philips-ble-flutter
-```
-
-### Android Studioでプロジェクトを開く
-
-Android Studioを起動して、philips-ble-flutterプロジェクトを開く
-[New Flutter Project] > [Open] > ~/StudioProjects/philips-ble-flutter
-
-pubspec.yamlを開いて右上の[Pub Get]を押す
-
-
-## Android StudioやFlutterのセットアップは以下を参考
-
-https://fascent.backlog.jp/alias/wiki/1075511353
-# philips-ble-flutter
