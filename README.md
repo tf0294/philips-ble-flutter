@@ -27,3 +27,4 @@ pubspec.yamlを開いて右上の[Pub Get]を押す
 ## Android StudioやFlutterのセットアップは以下を参考
 
 https://fascent.backlog.jp/alias/wiki/1075511353
+# philips-ble-flutter
